@@ -93,4 +93,8 @@ echo after that you pressurize the house to breathe without a spacesuit
 echo now you need food
 echo you mark the location of your house on the ships gps and go back to earth
 echo after getting food you go back to mars and store it on your shelf
+echo it is your usual bed time and you dont have a bed
+echo you get pillows and a mattress and wood and make one
+echo then you get a good night sleep
+
 
