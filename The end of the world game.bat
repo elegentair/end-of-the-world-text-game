@@ -96,5 +96,15 @@ echo after getting food you go back to mars and store it on your shelf
 echo it is your usual bed time and you dont have a bed
 echo you get pillows and a mattress and wood and make one
 echo then you get a good night sleep
+echo you wake up this morning and go to the ship
+echo you hear that a big red storm is coming
+echo press one to give up
+echo press two to arm your house
+if%marsselect%==1 goto over
+if%marsselect%==2 goto arm
 
+
+:over
+cls
+echo you dont arm 
 
