@@ -1,7 +1,7 @@
 @echo off
 color 1f
 :desktop
-title end of the world game
+title theend
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
 echo press one to start playing
@@ -66,3 +66,31 @@ echo you know where a space ship is
 echo it is in Cape Canaveral Florida
 echo you get in your car and drive there
 echo you stay at an abandoned hotel for the night
+echo when you wake up you drive to Cape Canaveral you hop a fence get a manual and fly a space ship
+echo there are some planets you can go to
+echo press one to give up
+echo press two to choose Mars
+echo press three to choose the earth moon
+if %gameoneselect%==1 goto giveup
+if %gameoneselect%==2 goto mars
+if %gameoneselect%==3 goto earthmoon
+
+:giveup
+cls
+echo you give up and fly into the sun
+echo GAME OVER
+echo to quit close this window
+
+
+:mars
+cls
+echo you fly the spaceship to mars
+echo once you get there you look for a place to build shelter
+echo you settle on to the left of your ship
+echo you have supplies in the ship
+echo after you get them you build a house
+echo after that you pressurize the house to breathe without a spacesuit
+echo now you need food
+echo you mark the location of your house on the ships gps and go back to earth
+echo after getting food you go back to mars and store it on your shelf
+
