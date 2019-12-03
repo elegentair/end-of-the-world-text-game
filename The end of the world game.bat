@@ -7,10 +7,10 @@ echo in this game you will try to survive the end of the world and move to and e
 echo press one to start playing
 echo press two to see how to play
 echo close this window if you do not want to play
-if %desktopselect%==1 goto game
-if %desktopselect%==2 goto info
-set /p desktopselect=choose-
+set /p choice1=Choose-
 
+if %choice1%==1 goto game
+if %choice1%==2 goto info
 
 :game
 cls
@@ -19,10 +19,10 @@ echo it says URGENT MESSAGE the world end is near prepare now
 echo wow you say should I belive this note
 echo to belive this message press one
 echo to not belive this message press two
-if %gameselect%==1 goto gamey
-if %gameselect%==2 goto gamen
-set /p gameselect=choose-
+set /p choice2=choose-
 
+if %choice2%==1 goto gamey
+if %choice2%==2 goto gamen
 
 :gamey
 cls
@@ -30,13 +30,13 @@ echo you say this message seems horible
 echo I hope it is a fake note
 echo but then the world starts to shake
 echo lava surrounds you
-echo what do you do
+echo what do you don
 echo press one to get somthing super cold and make land to stand on and escape
 echo press 2 to give up
-if %gameyselect%==1 goto gameone
-if %gameyselect%==2 goto gameover
-set /p gameselect=choose-
+set /p choice3=choose-
 
+if %choice3%==1 goto gameone
+if %choice3%==2 goto gameover
 
 :gamen
 cls
@@ -47,7 +47,6 @@ echo game over
 echo to quit close this window
 pause
 
-
 :gameover
 cls
 echo you say I guess this is the end
@@ -55,7 +54,6 @@ echo bye
 echo game over
 echo to quit close this window
 pause
-
 
 :gameone
 cls
@@ -76,10 +74,11 @@ echo there are some planets you can go to
 echo press one to give up
 echo press two to choose Mars
 echo press three to choose the earth moon
-if %gameoneselect%==1 goto giveup
-if %gameoneselect%==2 goto mars
-if %gameoneselect%==3 goto earthmoon
-set /p gameoneselect=choose-
+set /p choice4=choose-
+
+if %choice4%==1 goto giveup
+if %choice4%==2 goto mars
+if %choice4%==3 goto earthmoon
 
 :giveup
 cls
@@ -87,7 +86,6 @@ echo you give up and fly into the sun
 echo GAME OVER
 echo to quit close this window
 pause
-
 
 :mars
 cls
@@ -107,10 +105,9 @@ echo you wake up this morning and go to the ship
 echo you hear that a big red storm is coming
 echo press one to give up
 echo press two to arm your house
-if%marsselect%==1 goto over
-if%marsselect%==2 goto arm
-set /p marsselect=choose-
-
+set /p choice5=choose-
+if%choice5%==1 goto over
+if%choice5%==2 goto arm
 
 :over
 cls
@@ -119,13 +116,14 @@ echo GAME OVER
 echo to quit close this window
 pause
 
-
 :arm
 cls
 echo you arm your house for the storm on mars
 echo press one to lodge your self in a corner
 echo press two to stay in the middle of your house
-if%armselect%==1 goto corner
-if%armselect%==2 goto gover
-set /p armselect=choose
+set /p choice6=choose-
+
+if%choice6%==1 goto corner
+if%choice6%==2 goto gover
+
 
