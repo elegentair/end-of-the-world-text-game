@@ -21,7 +21,7 @@ echo to belive this message press one
 echo to not belive this message press two
 if %gameselect%==1 goto gamey
 if %gameselect%==2 goto gamen
-pause
+set /p gameselect=choose-
 
 
 :gamey
@@ -35,7 +35,7 @@ echo press one to get somthing super cold and make land to stand on and escape
 echo press 2 to give up
 if %gameyselect%==1 goto gameone
 if %gameyselect%==2 goto gameover
-pause
+set /p gameselect=choose-
 
 
 :gamen
@@ -79,7 +79,7 @@ echo press three to choose the earth moon
 if %gameoneselect%==1 goto giveup
 if %gameoneselect%==2 goto mars
 if %gameoneselect%==3 goto earthmoon
-pause
+set /p gameoneselect=choose-
 
 :giveup
 cls
@@ -109,7 +109,7 @@ echo press one to give up
 echo press two to arm your house
 if%marsselect%==1 goto over
 if%marsselect%==2 goto arm
-pause
+set /p marsselect=choose-
 
 
 :over
@@ -127,5 +127,5 @@ echo press one to lodge your self in a corner
 echo press two to stay in the middle of your house
 if%armselect%==1 goto corner
 if%armselect%==2 goto gover
-pause
+set /p armselect=choose
 
