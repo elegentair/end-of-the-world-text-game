@@ -1,2 +1,3 @@
 # end-of-the-world-text-game
 THIS WILL ONLY RUN ON WINDOWS
+THIS IS STILL IN DEVELOPMENT
