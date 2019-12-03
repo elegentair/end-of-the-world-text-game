@@ -9,6 +9,7 @@ echo press two to see how to play
 echo close this window if you do not want to play
 if %desktopselect%==1 goto game
 if %desktopselect%==2 goto info
+pause
 
 
 :game
@@ -20,6 +21,7 @@ echo to belive this message press one
 echo to not belive this message press two
 if %gameselect%==1 goto gamey
 if %gameselect%==2 goto gamen
+pause
 
 
 :gamey
@@ -33,6 +35,7 @@ echo press one to get somthing super cold and make land to stand on and escape
 echo press 2 to give up
 if %gameyselect%==1 goto gameone
 if %gameyselect%==2 goto gameover
+pause
 
 
 :gamen
@@ -42,6 +45,7 @@ echo you think why didn't I believe that note
 echo its too late now bye earth
 echo game over
 echo to quit close this window
+pause
 
 
 :gameover
@@ -50,6 +54,7 @@ echo you say I guess this is the end
 echo bye
 echo game over
 echo to quit close this window
+pause
 
 
 :gameone
@@ -74,12 +79,14 @@ echo press three to choose the earth moon
 if %gameoneselect%==1 goto giveup
 if %gameoneselect%==2 goto mars
 if %gameoneselect%==3 goto earthmoon
+pause
 
 :giveup
 cls
 echo you give up and fly into the sun
 echo GAME OVER
 echo to quit close this window
+pause
 
 
 :mars
@@ -102,9 +109,23 @@ echo press one to give up
 echo press two to arm your house
 if%marsselect%==1 goto over
 if%marsselect%==2 goto arm
+pause
 
 
 :over
 cls
-echo you dont arm 
+echo you dont arm your house and it gets swallowed in the storm
+echo GAME OVER
+echo to quit close this window
+pause
+
+
+:arm
+cls
+echo you arm your house for the storm on mars
+echo press one to lodge your self in a corner
+echo press two to stay in the middle of your house
+if%armselect%==1 goto corner
+if%armselect%==2 goto gover
+pause
 
