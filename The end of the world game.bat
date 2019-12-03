@@ -9,7 +9,7 @@ echo press two to see how to play
 echo close this window if you do not want to play
 if %desktopselect%==1 goto game
 if %desktopselect%==2 goto info
-pause
+set /p desktopselect=choose-
 
 
 :game
