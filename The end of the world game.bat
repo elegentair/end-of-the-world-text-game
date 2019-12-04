@@ -80,6 +80,13 @@ if %choice4%==1 goto giveup
 if %choice4%==2 goto mars
 if %choice4%==3 goto earthmoon
 
+:earthmoon
+cls
+echo once you arive on the moon you build a house but its so cold and you cant were that suit forever.
+echo after 2 days on the moon your oxegen runs out and you suffocate
+echo GAME OVER
+echo to quit close this window
+pause
 :giveup
 cls
 echo you give up and fly into the sun
@@ -126,4 +133,18 @@ set /p choice6=choose-
 if%choice6%==1 goto corner
 if%choice6%==2 goto gover
 
+:gover
+cls 
+echo you stay in the middle of your house and wait.
+echo then you hear a loud thump and you go black
+echo you are dead
+echo GAME OVER
+echo to quit close this window
+pause
 
+:corner
+cls
+echo you stay in the corner of your house and wait it out. this corner has a temperary wall for the storm
+echo you fall asleep
+echo when you wake up the storm is over and you lived
+echo
