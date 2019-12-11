@@ -147,4 +147,38 @@ cls
 echo you stay in the corner of your house and wait it out. this corner has a temperary wall for the storm
 echo you fall asleep
 echo when you wake up the storm is over and you lived
-echo
+echo you are so thankful but then
+echo somthing unexpected happens
+echo your tv flashes
+echo warning on mars
+echo this is not a test
+echo do not investigate anything in or out of your home
+echo do not talk to anyone no matter how human they sound
+echo do not look in windows or reflective objects
+echo enclose your self in a room
+echo with minimal entrances
+echo close and secure all possible entrances to your home
+echo do not talk
+echo and most importantly
+echo stay calm
+pause
+goto n
+
+:n
+cls
+echo you do not know what is happening
+echo then the invasion starts
+echo the end of the world on mars
+echo you make obsidian just like you did on earth
+echo you make a house on the obsidian
+echo somthing crashes and then you fall asleep
+pause
+goto p
+
+:p
+cls
+echo you lived
+echo you have a short ten minutes to look for another planet
+echo press one to 
+echo press two to
+echo press three to
