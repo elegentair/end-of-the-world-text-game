@@ -4,6 +4,7 @@ color 1f
 title theend
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
+pause
 echo press one to start playing
 echo press two to see how to play
 echo close this window if you do not want to play
@@ -46,6 +47,7 @@ echo its too late now bye earth
 echo game over
 echo to quit close this window
 pause
+goto desktop
 
 :gameover
 cls
@@ -54,6 +56,7 @@ echo bye
 echo game over
 echo to quit close this window
 pause
+goto desktop
 
 :gameone
 cls
@@ -65,6 +68,7 @@ echo you survived the rapture
 echo but what planet will you move to
 echo you have to search space
 echo you know you have to look for a space ship because you know you can not stay here
+pause
 echo you know where a space ship is
 echo it is in Cape Canaveral Florida
 echo you get in your car and drive there
@@ -87,12 +91,14 @@ echo after 2 days on the moon your oxegen runs out and you suffocate
 echo GAME OVER
 echo to quit close this window
 pause
+
 :giveup
 cls
 echo you give up and fly into the sun
 echo GAME OVER
 echo to quit close this window
 pause
+goto desktop
 
 :mars
 cls
@@ -102,6 +108,7 @@ echo you settle on to the left of your ship
 echo you have supplies in the ship
 echo after you get them you build a house
 echo after that you pressurize the house to breathe without a spacesuit
+pause
 echo now you need food
 echo you mark the location of your house on the ships gps and go back to earth
 echo after getting food you go back to mars and store it on your shelf
@@ -122,6 +129,7 @@ echo you dont arm your house and it gets swallowed in the storm
 echo GAME OVER
 echo to quit close this window
 pause
+goto desktop
 
 :arm
 cls
@@ -141,6 +149,7 @@ echo you are dead
 echo GAME OVER
 echo to quit close this window
 pause
+goto desktop
 
 :corner
 cls
@@ -154,6 +163,7 @@ echo warning on mars
 echo this is not a test
 echo do not investigate anything in or out of your home
 echo do not talk to anyone no matter how human they sound
+pause
 echo do not look in windows or reflective objects
 echo enclose your self in a room
 echo with minimal entrances
@@ -179,6 +189,63 @@ goto p
 cls
 echo you lived
 echo you have a short ten minutes to look for another planet
-echo press one to 
-echo press two to
-echo press three to
+echo press one to go to the moon
+echo press two to go to neptune
+set /p choice7=choose-
+if %choice7%==1 goto moon
+if %choice7%==2 goto neptune
+
+:neptune
+cls
+echo once you land in neptune your helmet breaks
+echo you freeze
+echo GAME OVER
+echo to quit close this window
+pause
+goto desktop
+
+:moon
+cls
+echo you have all of your supplies
+echo you rebuild your home
+pause
+echo plank by plank
+echo shelf by shelf
+echo once your done of course
+pause
+echo you explore
+echo you go crator to crator
+echo you love jumping
+echo but then your lost
+echo good thing you have supplies
+echo you setup camp and sleep
+echo when you wake up you look for home
+echo your ship is right by it so
+pause
+echo you use your phone to track the ship
+echo phone head east for 2 miles the head west
+echo you follow the phones instructions
+echo then your home
+echo you are so happy
+echo you love the moon
+echo there is just the right amount of gravity
+echo and you can go back to earth for food anytime you run out
+pause
+echo then you think
+pause
+echo food
+echo in your space ship
+echo you have a great dinner
+echo then it is time to go to bed
+echo then you wake up
+echo you need breakfest
+echo but what to have
+echo you will have scrambled eggs
+echo you put the eggs in the oven
+echo you wait
+pause
+echo and wait
+echo and wait
+echo then
+echo there done
+
