@@ -247,5 +247,94 @@ pause
 echo and wait
 echo and wait
 echo then
+pause
 echo there done
+echo theese eggs are good
+echo you eat instantly
+echo now you go and explore
+echo you use the landmarks from where you got lost
+echo you find your camp but you find somthing new
+pause
+echo you find a time traveler
+echo you want to use it
+echo press one to go to earth where you found the shuttle
+echo press two to start moving to mars
+echo press three to start the game over
+echo press four to start moving to the moon
+echo press five to continue the game
+set /p choice8=choose-
+if %choice8%==1 goto gameone
+if %choice8%==2 goto mars
+if %choice8%==3 goto desktop
+if %choice8%==4 goto moon
+if %choice8%==5 goto continue
 
+:continue
+cls
+echo you change your mind about the time traveler
+echo you continue on with life
+echo you continue to explore
+echo crator by crator
+echo you never want to leave the moon
+echo you love it here
+echo from the start when you found that note and went to florida
+echo you found the spaceship and you lived on mars and now your on the moon
+echo it is amazing
+echo the only thing wrong is
+pause
+echo you are all alone
+echo you will never see another human again
+echo and that is what makes you
+pause
+echo alone
+echo you make a clone of your dog which really helps
+echo it has all ready been a year
+echo but you are on an adventure
+echo you are the first human to live on mars and the moon
+echo you dont cry
+echo you go to the dog clone you made with a cloning machine
+echo you have an amazing feeling
+pause
+echo your happy
+echo its amazing
+echo for the first time in so long
+echo you go to sleep
+echo you wake up
+echo you feel a little sick so you get medicene
+echo you take a ride for the first time in a space ship
+echo inside you check on mars
+echo you fly by earth and explore space
+pause
+echo of course
+echo you fly around space
+echo you turn on the autopilot and put on your suit and
+pause
+echo go outside
+echo your floting
+echo this is better than indoor skydiving
+echo but then you have to go inside
+pause
+echo you fly the spaceship all the way back to the moon
+echo you have a hard landing
+echo but you slow down and go back home
+echo you never want to leave
+echo you have so much fun
+echo you even play with your dog
+pause
+echo for five hours
+echo you make dinner
+echo the food is amazing
+echo and you feel better
+echo that medicine helped
+echo you sleep
+pause
+echo you are on an adventure
+pause
+echo and it is just beggining
+echo you have finished the game
+echo congrats
+echo close this window to quit
+echo press any key to restart
+echo and part two is coming soon
+pause
+goto desktop
