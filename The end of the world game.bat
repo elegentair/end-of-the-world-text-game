@@ -330,13 +330,32 @@ echo and you feel better
 echo that medicine helped
 echo you sleep
 pause
-echo you are on an adventure
+echo you wake up the next day
+echo you explore the moon and then
 pause
-echo and it is just beggining
-echo you have finished the game
-echo congrats
-echo close this window to quit
-echo press any key to restart
-echo and part two is coming soon
+echo dust fills the sky
+echo you return to home
+echo a storm is coming
+echo you are very very advanced
+echo you have cooling and warming tech 
+echo during the storm you upgrade your suit
+echo when the storm is done you are on a peace of the moon
+echo press one to move to Venus
+echo press two to move to Europa
+set /p choice9=choose-
+if %choice9%==1 goto venus
+if %choice9%==2 goto jupmoon
+
+:venus
+cls
+echo you pack up and move to venus
+echo your space suit breaks
+echo GAME OVER
+echo to quit close this window
 pause
 goto desktop
+
+:jupmoon
+cls
+echo you go to this moon a moon of jupiter
+pause
