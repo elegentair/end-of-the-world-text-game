@@ -78,6 +78,7 @@ echo there are some planets you can go to
 echo press one to give up
 echo press two to choose Mars
 echo press three to choose the earth moon
+echo you are not very advanced
 set /p choice4=choose-
 
 if %choice4%==1 goto giveup
@@ -108,6 +109,7 @@ echo you settle on to the left of your ship
 echo you have supplies in the ship
 echo after you get them you build a house
 echo after that you pressurize the house to breathe without a spacesuit
+echo you are very advanced
 pause
 echo now you need food
 echo you mark the location of your house on the ships gps and go back to earth
