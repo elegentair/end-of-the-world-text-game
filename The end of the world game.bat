@@ -349,6 +349,9 @@ if %choice9%==2 goto jupmoon
 :venus
 cls
 echo you pack up and move to venus
+echo it is very hot there
+echo you realize your not advanced enough
+pause
 echo your space suit breaks
 echo GAME OVER
 echo to quit close this window
@@ -357,5 +360,24 @@ goto desktop
 
 :jupmoon
 cls
-echo you go to this moon a moon of jupiter
+echo you go to Europa a moon of jupiter
+echo it is very cool there
+echo you shall set up your home
+echo you get all your marerials and build your home
+echo than you go to sleep
+echo it is time to explore
+echo but then 
+echo aliens
+echo they say
+echo hey
+echo what are you doing on our territory
+echo you say
+echo i just moved here
+echo i got here at twelve am eastern europa time
+echo the aliens say oh no we have to leave
+echo we got here at two am eastern europa time
+echo thats to bad you say
+echo you better go
+echo ok the aliens say
+echo and they go
 pause
