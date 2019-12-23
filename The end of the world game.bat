@@ -2,6 +2,9 @@
 color 1f
 :desktop
 title theend
+echo this game is rated ten and up
+echo before playing please consider that
+pause
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
 pause
@@ -373,11 +376,13 @@ echo hey
 echo what are you doing on our territory
 echo you say
 echo i just moved here
-echo i got here at twelve am eastern europa time
-echo the aliens say oh no we have to leave
-echo we got here at two am eastern europa time
-echo thats to bad you say
-echo you better go
-echo ok the aliens say
-echo and they go
+echo the aliens rake out a sword
+echo you run 
+echo you dodge swords flying in the air
+echo you get a sword and swing 
+echo pow a alien gets hit
+echo aaaaaaaaaaaaaaaaa
+echo two more get slain
+echo and the aliens retreat
+echo you won the battle
 pause
