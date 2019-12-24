@@ -1,3 +1,3 @@
 # end-of-the-world-text-game
-THIS WILL ONLY RUN ON WINDOWS XP AND HIGHER        HAS TO BE ON WINDOWS
-please report any bugs
+this only works on windows xp and higher only windows
+please report any bugs in the issues.
