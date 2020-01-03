@@ -2,6 +2,8 @@
 color 1f
 :desktop
 title theend
+echo this game is not to be stolen 
+echo you may only edit for personal use
 echo this game is rated ten and up
 echo before playing please consider that
 pause
