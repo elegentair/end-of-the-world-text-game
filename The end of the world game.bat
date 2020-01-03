@@ -18,6 +18,14 @@ set /p choice1=Choose-
 if %choice1%==1 goto game
 if %choice1%==2 goto info
 
+:info
+echo to play follow the prompts on the screen
+echo read the text so you know what is happening
+echo make the right choices to survive
+echo updated frequently
+pause
+goto desktop
+
 :game
 cls
 echo you find a note
