@@ -2,10 +2,15 @@
 color 1f
 :desktop
 title theend
+echo license agreememt
 echo this game is not to be stolen 
 echo you may only edit for personal use
 echo this game is rated ten and up
 echo before playing please consider that
+echo this game is not finished
+echo we do not sell any data or info
+echo we do not see your data
+echo if you do not agree please close this game
 pause
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
