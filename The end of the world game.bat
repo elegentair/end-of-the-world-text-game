@@ -401,3 +401,38 @@ echo two more get slain
 echo and the aliens retreat
 echo you won the battle
 pause
+echo after the battle you went home 
+echo the aliens gave you food for winning
+echo press one to eat that
+echo press two to eat chicken
+set /p choicea=choose-
+if %choicea%==1 goto fp
+if %choicea%==2 goto continue
+
+:fp
+cls
+echo you cook the food
+echo it looks amazing
+echo you take a bite
+pause
+echo you get paralized forever
+echo GAME OVER
+pause
+goto desktop
+
+:continue
+cls
+echo you burn the alien food into ashes
+echo you eat your chicken
+echo it was very good
+echo but then
+pause
+echo you hear shaking
+echo a storm
+echo you hide in a corner of your house until it passes
+echo then you go outside to jump
+echo it is fun
+echo you jump super high
+pause
+echo about 70 feet
+pause
