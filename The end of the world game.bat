@@ -12,6 +12,7 @@ echo we do not sell any data or info
 echo we do not see your data
 echo if you do not agree please close this game
 pause
+
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
 pause
@@ -140,8 +141,9 @@ echo you hear that a big red storm is coming
 echo press one to give up
 echo press two to arm your house
 set /p choice5=choose-
-if%choice5%==1 goto over
-if%choice5%==2 goto arm
+
+if %choice5%==1 goto over
+if %choice5%==2 goto arm
 
 :over
 cls
@@ -158,8 +160,8 @@ echo press one to lodge your self in a corner
 echo press two to stay in the middle of your house
 set /p choice6=choose-
 
-if%choice6%==1 goto corner
-if%choice6%==2 goto gover
+if %choice6%==1 goto corner
+if %choice6%==2 goto gover
 
 :gover
 cls 
@@ -212,6 +214,7 @@ echo you have a short ten minutes to look for another planet
 echo press one to go to the moon
 echo press two to go to neptune
 set /p choice7=choose-
+
 if %choice7%==1 goto moon
 if %choice7%==2 goto neptune
 
@@ -283,6 +286,7 @@ echo press three to start the game over
 echo press four to start moving to the moon
 echo press five to continue the game
 set /p choice8=choose-
+
 if %choice8%==1 goto gameone
 if %choice8%==2 goto mars
 if %choice8%==3 goto desktop
@@ -361,6 +365,7 @@ echo when the storm is done you are on a peace of the moon
 echo press one to move to Venus
 echo press two to move to Europa
 set /p choice9=choose-
+
 if %choice9%==1 goto venus
 if %choice9%==2 goto jupmoon
 
@@ -406,6 +411,7 @@ echo the aliens gave you food for winning
 echo press one to eat that
 echo press two to eat chicken
 set /p choicea=choose-
+
 if %choicea%==1 goto fp
 if %choicea%==2 goto continue
 
