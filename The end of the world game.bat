@@ -12,7 +12,7 @@ echo we do not sell any data or info
 echo we do not see your data
 echo if you do not agree please close this game
 pause
-
+cls
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
 pause
@@ -50,7 +50,7 @@ echo you say this message seems horible
 echo I hope it is a fake note
 echo but then the world starts to shake
 echo lava surrounds you
-echo what do you don
+echo what do you do
 echo press one to get somthing super cold and make land to stand on and escape
 echo press 2 to give up
 set /p choice3=choose-
@@ -81,6 +81,7 @@ goto desktop
 cls
 echo you get dry ice while you still can and nitrogen and poor it in some lava
 echo it worked you have land to stand on
+pause
 cls
 echo you wake up 
 echo you survived the rapture
@@ -88,6 +89,7 @@ echo but what planet will you move to
 echo you have to search space
 echo you know you have to look for a space ship because you know you can not stay here
 pause
+cls
 echo you know where a space ship is
 echo it is in Cape Canaveral Florida
 echo you get in your car and drive there
@@ -130,6 +132,7 @@ echo after you get them you build a house
 echo after that you pressurize the house to breathe without a spacesuit
 echo you are very advanced
 pause
+cls
 echo now you need food
 echo you mark the location of your house on the ships gps and go back to earth
 echo after getting food you go back to mars and store it on your shelf
@@ -186,6 +189,7 @@ echo this is not a test
 echo do not investigate anything in or out of your home
 echo do not talk to anyone no matter how human they sound
 pause
+cls
 echo do not look in windows or reflective objects
 echo enclose your self in a room
 echo with minimal entrances
@@ -236,6 +240,7 @@ echo plank by plank
 echo shelf by shelf
 echo once your done of course
 pause
+cls
 echo you explore
 echo you go crator to crator
 echo you love jumping
@@ -245,6 +250,7 @@ echo you setup camp and sleep
 echo when you wake up you look for home
 echo your ship is right by it so
 pause
+cls
 echo you use your phone to track the ship
 echo phone head east for 2 miles the head west
 echo you follow the phones instructions
@@ -254,8 +260,10 @@ echo you love the moon
 echo there is just the right amount of gravity
 echo and you can go back to earth for food anytime you run out
 pause
+cls
 echo then you think
 pause
+cls
 echo food
 echo in your space ship
 echo you have a great dinner
@@ -267,10 +275,12 @@ echo you will have scrambled eggs
 echo you put the eggs in the oven
 echo you wait
 pause
+cls
 echo and wait
 echo and wait
 echo then
 pause
+cld
 echo there done
 echo theese eggs are good
 echo you eat instantly
@@ -278,6 +288,7 @@ echo now you go and explore
 echo you use the landmarks from where you got lost
 echo you find your camp but you find somthing new
 pause
+cls
 echo you find a time traveler
 echo you want to use it
 echo press one to go to earth where you found the shuttle
@@ -306,10 +317,12 @@ echo you found the spaceship and you lived on mars and now your on the moon
 echo it is amazing
 echo the only thing wrong is
 pause
+cls
 echo you are all alone
 echo you will never see another human again
 echo and that is what makes you
 pause
+cls
 echo alone
 echo you make a clone of your dog which really helps
 echo it has all ready been a year
@@ -319,6 +332,7 @@ echo you dont cry
 echo you go to the dog clone you made with a cloning machine
 echo you have an amazing feeling
 pause
+cls
 echo your happy
 echo its amazing
 echo for the first time in so long
@@ -329,15 +343,18 @@ echo you take a ride for the first time in a space ship
 echo inside you check on mars
 echo you fly by earth and explore space
 pause
+cls
 echo of course
 echo you fly around space
 echo you turn on the autopilot and put on your suit and
 pause
+cls
 echo go outside
 echo your floting
 echo this is better than indoor skydiving
 echo but then you have to go inside
 pause
+cls
 echo you fly the spaceship all the way back to the moon
 echo you have a hard landing
 echo but you slow down and go back home
@@ -345,6 +362,7 @@ echo you never want to leave
 echo you have so much fun
 echo you even play with your dog
 pause
+cls
 echo for five hours
 echo you make dinner
 echo the food is amazing
@@ -352,9 +370,11 @@ echo and you feel better
 echo that medicine helped
 echo you sleep
 pause
+cls
 echo you wake up the next day
 echo you explore the moon and then
 pause
+cls
 echo dust fills the sky
 echo you return to home
 echo a storm is coming
@@ -375,6 +395,7 @@ echo you pack up and move to venus
 echo it is very hot there
 echo you realize your not advanced enough
 pause
+cls
 echo your space suit breaks
 echo GAME OVER
 echo to quit close this window
@@ -388,7 +409,10 @@ echo it is very cool there
 echo you shall set up your home
 echo you get all your marerials and build your home
 echo than you go to sleep
+echo you wake up
 echo it is time to explore
+pause
+cls
 echo but then 
 echo aliens
 echo they say
@@ -396,6 +420,8 @@ echo hey
 echo what are you doing on our territory
 echo you say
 echo i just moved here
+pause
+cls
 echo the aliens rake out a sword
 echo you run 
 echo you dodge swords flying in the air
@@ -406,6 +432,7 @@ echo two more get slain
 echo and the aliens retreat
 echo you won the battle
 pause
+cls
 echo after the battle you went home 
 echo the aliens gave you food for winning
 echo press one to eat that
@@ -421,6 +448,7 @@ echo you cook the food
 echo it looks amazing
 echo you take a bite
 pause
+cls
 echo you get paralized forever
 echo GAME OVER
 pause
@@ -433,6 +461,7 @@ echo you eat your chicken
 echo it was very good
 echo but then
 pause
+cls
 echo you hear shaking
 echo a storm
 echo you hide in a corner of your house until it passes
@@ -440,5 +469,6 @@ echo then you go outside to jump
 echo it is fun
 echo you jump super high
 pause
+cls
 echo about 70 feet
 pause
