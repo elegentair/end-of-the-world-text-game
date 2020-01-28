@@ -280,7 +280,7 @@ echo and wait
 echo and wait
 echo then
 pause
-cld
+cls
 echo there done
 echo theese eggs are good
 echo you eat instantly
