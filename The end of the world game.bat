@@ -472,3 +472,19 @@ pause
 cls
 echo about 70 feet
 pause
+cls
+echo wow that is very high
+echo you see the tip of earth your old planet
+echo you have came so far
+echo should you try to clone people
+echo it is a good try
+echo you collect bones and clone them
+echo you see your family and friends
+echo there is no person here you do not like
+echo it is awsome
+echo you get a doge ball and beach ball and play
+echo you wonder what is in the future
+echo it is time to sleep
+echo you can not wait for tommorrow
+pause
+cls
