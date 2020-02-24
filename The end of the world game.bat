@@ -488,3 +488,34 @@ echo it is time to sleep
 echo you can not wait for tommorrow
 pause
 cls
+echo it is tommorrow
+echo you greet your family and friends
+echo you have a jumping contest to see who can jump highest
+echo of course it is different than on earth beacase there is way less gravity
+echo you play it and you won
+echo you do have the largest legs
+echo you find another time machine
+echo press one to go back to the start of this game
+echo press 2 to go to when you move to the moon
+echo press 3 to start moving to mars
+echo press 4 to continue the game
+set /p choiceb=choose-
+
+if %choiceb%==1 goto desktop
+if %choiceb%==2 goto moon
+if %choiceb%==3 goto mars
+if %choiceb%==4 goto cont23
+
+:cont23
+cls
+echo again,you change your mind about the time machine
+echo you continue to play with your friends and family
+echo you have alot of fun
+echo for dinner you have amazing salmon
+echo you and your family stram the auto tv network coming from earth to your tv
+echo it auto invents tv shows
+echo you stay up late
+echo you go to bed after a long night
+echo you dream how good the next day will be
+pause
+cls
