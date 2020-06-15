@@ -519,3 +519,19 @@ echo you go to bed after a long night
 echo you dream how good the next day will be
 pause
 cls
+echo you wake up the next day
+echo your dog woke you today
+echo you plan to fly in your ship today
+echo but first breakfast
+echo you have not used your eggs in a while
+echo should you eat that
+echo or
+pause
+echo or you could have cereal.
+echo press one to eat eggs
+echo press two to eat cereal
+pause
+set /p choicejan=choose-
+
+if %choicejan%==1 goto reggs
+if %
