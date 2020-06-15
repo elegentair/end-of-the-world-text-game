@@ -530,8 +530,33 @@ pause
 echo or you could have cereal.
 echo press one to eat eggs
 echo press two to eat cereal
-pause
 set /p choicejan=choose-
 
 if %choicejan%==1 goto reggs
-if %
+if %choicejan%==2 goto ceral
+
+:reggs
+cls
+echo you cook breakfast
+echo you need to use the eggs before they got spoiled
+echo they look yummy
+echo you take a bite
+echo its 
+pause
+echo horrible
+echo you do not eat anymore
+echo that night you go to sleep
+echo game over
+pause
+cls
+goto desktop
+
+:ceral
+cls
+echo you get a bowl and eat some cereal
+echo the eggs start to smell
+echo you throw them out
+echo you eat some cereal
+echo it tastes great
+pause
+cls
