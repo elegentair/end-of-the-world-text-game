@@ -12,12 +12,10 @@ echo we do not sell any data or info
 echo we do not see your data
 echo if you do not agree please close this game
 pause
-set input=
-set /p input= password in notes-
-if %input%==89099115 goto passyes
-if not %input%==89099115 goto desktop
+goto passyes
 
 :passyes
+cls
 echo welcome to the end of the world
 echo in this game you will try to survive the end of the world and move to and explore other planets
 pause
