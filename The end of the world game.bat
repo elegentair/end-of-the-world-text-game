@@ -1,7 +1,14 @@
 @echo off
 color 1f
 :desktop
-title theend
+echo msdos is starting
+echo floppy disk inserted, to start type endoftheworld.bat
+set /p choiceintery=c:\
+
+if %choiceintery%== endoftheworld.bat goto interys
+
+:interys
+cls
 echo license agreememt
 echo this game is not to be stolen 
 echo you may only edit for personal use
