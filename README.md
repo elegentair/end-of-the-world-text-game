@@ -15,4 +15,4 @@ Developers:
 Contact me via the issues of this repository to sell YOUR mod.
 I would rather have the mods be free, but if you want to charge for YOUR mods than you can follow the instructions up above.
 The consumer license agreement applies to all developers, but you are premitted to sell YOUR mods if you want to.
-One last thing: Number 2 does not apply to developers
+One last thing: Number 2 does not apply to developers, as long as you say it is a mod
