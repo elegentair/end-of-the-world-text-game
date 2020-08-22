@@ -1,5 +1,5 @@
 # end-of-the-world-text-game
-please consider the following before downloading. This program is compatible on windows only. It may be possible to install compatibility layer on mac or linux, we strongly do not recommend it.
+please consider the following before downloading. This program is compatible on windows only. It may be possible to install compatibility layer on mac or linux, however we strongly do not recommend it.
 
 Please also consider the fact that this video game does have an alien battle. Nothing is shown, as this is a text based game, but it may be dramatic to some people. Also the world does end at the beggining. Before downloading this game, please make sure that you consider all of this. 
 
