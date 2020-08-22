@@ -1,8 +1,10 @@
 # end-of-the-world-text-game
-this only works on windows xp and higher only windows
-please report any bugs in the issues
+please consider the following before downloading. This program is compatible on windows only. It may be possible to install compatibility layer on mac or linux, we strongly do not recommend it.
 
-pls open notebook.txt alongside the game to act as charecters notebook
+Please also consider the fact that this video game does have an alien battle. Nothing is shown, as this is a text based game, but it may be dramatic to some people. Also the world does end at the beggining. Before downloading this game, please make sure that you consider all of this. 
+
+It is also recommended that you open notebook.txt alongside the game to act as charecters notebook
+
 
 Consumer license agreement:
 
