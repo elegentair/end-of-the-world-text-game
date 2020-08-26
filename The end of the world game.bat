@@ -563,3 +563,10 @@ echo you eat some cereal
 echo it tastes great
 pause
 cls
+echo you eat more cerial
+echo then you have a choice to make
+echo you can go explore
+echo or you can watch television
+echo press one to explore
+echo press two to watch tv
+set /p 
