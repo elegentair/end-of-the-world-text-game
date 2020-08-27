@@ -569,4 +569,6 @@ echo you can go explore
 echo or you can watch television
 echo press one to explore
 echo press two to watch tv
-set /p 
+set /p choiceaws=choose-
+
+
