@@ -571,4 +571,8 @@ echo press one to explore
 echo press two to watch tv
 set /p choiceaws=choose-
 
+if %choiceaws%==1 goto awsre
+if %choiceaws%==2 goto awsloose
+
+
 
