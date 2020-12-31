@@ -23,7 +23,7 @@ exit
 
 :q2
 cls
-start The end of the world game.bat
+start theend.bat
 echo Did the game just start?
 echo If so, close the game and press one. If not, press 2
 set /p choice2=Choose-
