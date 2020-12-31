@@ -12,7 +12,7 @@ echo Press one for yes or two for no
 set /p choice1=Choose-
 
 if %choice1%==1 goto q2
-if %choice1%==1 goto no
+if %choice1%==2 goto no
 
 :no
 cls
@@ -29,7 +29,7 @@ echo If so, close the game and press one. If not, press 2
 set /p choice2=Choose-
 
 if %choice2%==1 goto q3
-if %choice2%==1 goto no
+if %choice2%==2 goto no
 
 :q3
 cls
