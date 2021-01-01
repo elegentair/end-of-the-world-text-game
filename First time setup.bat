@@ -25,11 +25,22 @@ exit
 cls
 start theend.bat
 echo Did the game just start?
-echo If so, close the game and press one. If not, press 2
+echo If so, close the game and press one. If not, make sure all the game files you downloaded are in the same folder.
+echo If that does not work, and you do not have theend.bat please press 2 for more assistance.
 set /p choice2=Choose-
 
 if %choice2%==1 goto q3
-if %choice2%==2 goto no
+if %choice2%==2 goto ngf
+
+:ngf
+cls
+echo The game file theend.bat is missing or corrupted. Make sure that you have it by clicking start, and typing "theend.bat" 
+echo without quotes. If the game file does not come up, redownload the game and MAKE SURE ALL THE GAME FILE'S ARE THERE IN THE
+echo SAME LOCATION. It is 5 files. If it does come up, make sure all the game's files are in the same location. 
+echo If you need assistance, feel free to ask for help in the issues on the games page. (You may need a github account)
+echo The program will now exit.
+pause
+exit
 
 :q3
 cls
